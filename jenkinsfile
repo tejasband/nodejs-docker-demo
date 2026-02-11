@@ -9,7 +9,6 @@ pipeline {
 
         stage('Clone') {
             steps {
-                git branch: 'main',
                 git 'https://github.com/tejasband/nodejs-docker-demo.git'
             }
         }
